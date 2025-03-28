@@ -18,7 +18,7 @@ flowchart TB
     H-->I{is factorX = 0}
     I--yes-->J[/print squareNum is factor of x/]
     J-->K{is squareSum < maxSum}
-    K--yes-->L[squareSum = squareNum + consNum // squareSum = squareNum + ((initialPosition + 1) ** 2)]
+    K--yes-->L[squareSum = squareNum + consNum // squareSum = squareNum + initialPosition + 1 ** 2)]
     L-->M[/print squareSum/]
     M-->N(End)
 
