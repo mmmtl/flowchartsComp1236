@@ -12,7 +12,7 @@ flowchart TB
     E-- yes -->F[squareNum = initialValue**2
     oddNum = squareNum % 2
     factorX = x % squareNum
-    consNum = [initialPosition + 1] ** 2]
+    consNum = initialPosition + 1 ** 2]
     F-->G{is oddNum = 1}
     G--yes-->H[/print squareNum/]
     H-->I{is factorX = 0}
